@@ -66,18 +66,7 @@ await page.waitForTimeout(2000);
  
  await page.screenshot({
  path: `screenshots/4.Click_on_Product_${Date.now()}.png`
- await page.waitForTimeout(2000);
-
- });
- 
- 
- 
- 
- 
- 
- 
- 
- 
+ }); 
  
  
 // 5. Add to cart
