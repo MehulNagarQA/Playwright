@@ -5,6 +5,10 @@ export class HomePage {
   constructor(private page: Page) {}
 
   async navigate() {
+
+
+
+    
     await this.page.goto('https://demowebshop.tricentis.com/');
   }
 

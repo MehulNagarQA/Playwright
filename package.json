@@ -6,9 +6,21 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "This project demonstrates an end-to-end automation framework built using **Playwright with TypeScript**, following the **Page Object Model (POM)** design pattern.",
   "devDependencies": {
-    "@playwright/test": "^1.58.2",
+    "@playwright/test": "^1.59.1",
     "@types/node": "^25.5.0"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MehulNagarQA/Playwright.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MehulNagarQA/Playwright/issues"
+  },
+  "homepage": "https://github.com/MehulNagarQA/Playwright#readme"
 }
